@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Атрибуты</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        th, td {
+            border: 2px solid #333;
+            padding: 15px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        
+        hr {
+            border: none;
+            border-top: 3px solid #333;
+            margin: 30px 0;
+        }
+        
+        h2 {
+            color: #444;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #555;
+            margin: 25px 0 15px 0;
+        }
+        
+        .counter-section {
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .click-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        
+        .click-button:hover {
+            background: #0056b3;
+        }
+        
+        .click-count {
+            font-weight: bold;
+            color: #007bff;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        
+        .input-section {
+            margin: 15px 0;
+        }
+        
+        input {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            margin: 5px 0;
+        }
+        
+        input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        
+        .validation-message {
+            color: #dc3545;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .success {
+            color: #28a745;
+        }
+        
+        .product-section {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        ul {
+            margin-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .drag-section {
+            background: #d4edda;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .draggable-item {
+            background: #28a745;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: move;
+            display: inline-block;
+            min-width: 200px;
+            text-align: center;
+        }
+        
+        .drop-zone {
+            background: #c8e6c9;
+            border: 2px dashed #28a745;
+            padding: 30px;
+            border-radius: 5px;
+            margin: 15px 0;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Атрибуты</h1>
+        
+        <table>
+            <tr>
+                <th>текст</th>
+                <th>текст</th>
+                <th>текст</th>
+            </tr>
+            <tr>
+                <td>Содержимое 1</td>
+                <td>Содержимое 2</td>
+                <td>Содержимое 3</td>
+            </tr>
+        </table>
+        
+        <hr>
+        
+        <h2>Кнопка-счетчик</h2>
+        
+        <div class="counter-section">
+            <button class="click-button" onclick="incrementCounter()">Показать количество кликов</button>
+            <span class="click-count" id="clickCount">0</span>
+        </div>
+        
+        <div class="input-section">
+            <input type="text" id="input5" placeholder="Введите 5 символов" oninput="validateInput5()">
+            <div class="validation-message" id="message5"></div>
+        </div>
+        
+        <div class="input-section">
+            <input type="text" id="input5_10" placeholder="Введите 5-10 символов" oninput="validateInput5_10()">
+            <div class="validation-message" id="message5_10"></div>
+        </div>
+        
+        <h3>товар яблоки</h3>
+        <div class="product-section">
+            <ul>
+                <li>Абзац 1 - Свежие сладкие яблоки</li>
+                <li>Абзац 2 - Высокое качество продукции</li>
+                <li>Абзац 3 - Доступные цены</li>
+                <li>Абзац 4 - Быстрая доставка</li>
+            </ul>
+        </div>
+        
+        <h3>Элемент для заданий 14-16</h3>
+        <div class="drag-section">
+            <div class="draggable-item" draggable="true" ondragstart="dragStart(event)" id="dragItem1">
+                Перетащи меня (14-16)
+            </div>
+            <div class="drop-zone" ondragover="dragOver(event)" ondrop="drop(event)" id="dropZone1">
+                Зона для перетаскивания
+            </div>
+        </div>
+        
+        <h3>Элемент для заданий 17-19</h3>
+        <div class="drag-section">
+            <div class="draggable-item" draggable="true" ondragstart="dragStart(event)" id="dragItem2">
+                Перетащи меня (17-19)
+            </div>
+            <div class="drop-zone" ondragover="dragOver(event)" ondrop="drop(event)" id="dropZone2">
+                Зона для перетаскивания
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let clickCounter = 0;
+        
+        function incrementCounter() {
+            clickCounter++;
+            document.getElementById('clickCount').textContent = clickCounter;
+        }
+        
+        function validateInput5() {
+            const input = document.getElementById('input5');
+            const message = document.getElementById('message5');
+            const value = input.value;
+            
+            if (value.length === 5) {
+                message.textContent = '✓ Правильно! Введено 5 символов';
+                message.className = 'validation-message success';
+            } else {
+                message.textContent = `Введено ${value.length} символов. Нужно 5.`;
+                message.className = 'validation-message';
+            }
+        }
+        
+        function validateInput5_10() {
+            const input = document.getElementById('input5_10');
+            const message = document.getElementById('message5_10');
+            const value = input.value;
+            
+            if (value.length >= 5 && value.length <= 10) {
+                message.textContent = '✓ Правильно! Введено от 5 до 10 символов';
+                message.className = 'validation-message success';
+            } else {
+                message.textContent = `Введено ${value.length} символов. Нужно 5-10.`;
+                message.className = 'validation-message';
+            }
+        }
+        
+        function dragStart(event) {
+            event.dataTransfer.setData('text/plain', event.target.id);
+        }
+        
+        function dragOver(event) {
+            event.preventDefault();
+        }
+        
+        function drop(event) {
+            event.preventDefault();
+            const id = event.dataTransfer.getData('text/plain');
+            const draggableElement = document.getElementById(id);
+            const dropzone = event.target;
+            
+            // Проверяем, что это зона для перетаскивания
+            if (dropzone.classList.contains('drop-zone')) {
+                dropzone.textContent = `Перетащено: ${draggableElement.textContent}`;
+                dropzone.style.backgroundColor = '#b8d8be';
+            }
+        }
+    </script>
+</body>
+</html>
