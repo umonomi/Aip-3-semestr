@@ -1,0 +1,190 @@
+i {
+	color: blue;
+}
+i {
+    color: green;
+	font-size: 30px;
+}
+ul {
+    color: blue;
+	font-size: 20px;
+}
+li {
+	color: darkorchid;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	text-align: center;
+    color: red;
+}
+h3 {
+	font-size: 16px;
+}
+
+p {
+	color: firebrick;
+	text-align: justify;
+	font-size: 16px;
+}
+
+ul li {
+	color: red;
+}
+ol li {
+	color: green;
+}
+
+ul i {
+    color: red;
+}
+p i {
+    color: green;
+}
+
+p b i {
+    color: red;
+}
+
+li > b {
+    color: rgb(32, 0, 68);
+}
+
+li.odd { color: rgb(0, 132, 255); }
+li.eve { color: rgb(255, 0, 255); }
+
+.eee {
+    color: rgb(0, 255, 34);
+}
+
+.xxx {
+    font-size: 30px;
+}
+
+.red {
+    color: rgb(0, 255, 255);
+}
+
+.green {
+    color: rgb(68, 0, 255);
+}
+
+.eee, .zzz, .ggg {
+    text-align: center;
+    font-family: Arial;
+}
+
+.eee { font-size: 20px; }
+.zzz { font-size: 30px; }
+.ggg { font-size: 35px; }
+
+.header {
+    color: rgb(174, 0, 255);
+}
+
+h2.header {
+    font-size: 40px;
+}
+
+h3.header {
+    font-size: 30px;
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:hover {   
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+a.eee:link, a.eee:visited {
+	color: rgb(0, 225, 255);
+}
+a.eee:hover {
+	text-decoration: none;
+}           
+
+li:first-child {
+	color: red;
+}
+
+
+li:second-child {
+	color: rgb(0, 0, 0);
+}
+
+
+li:third-child {
+	color: rgb(0, 0, 0);
+}
+
+
+li:fourth-child {
+	color: rgb(0, 0, 0);
+}
+ 
+
+li:fifth-child {
+	color: green;
+}
+
+
+li:empty {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+li:empty {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+li:empty::after {
+    content: "☐";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+
+li:not(:empty)::after {
+    content: "☑";
+    color: green;
+}
+
+#elem {
+	width: 300px;
+	height: 100px;
+	color: white;
+	background-color: orange; /* задаем оранжевый цвет фона */
+}
+
+#xhunter {
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgb(0, 153, 255); /* задаем оранжевый цвет фона */
+}
+
+#kg {
+	width: 500px;
+	height: 300px;
+	color: white;
+	background-color: rgb(0, 255, 115); /* задаем оранжевый цвет фона */
+}
