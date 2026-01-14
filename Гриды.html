@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Лабораторная</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <!-- Базовые примеры -->
+    <div class="section">
+        <h3>Базовые гриды</h3>
+        <div class="grid-container basic-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container basic-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+    </div>
+
+    <!-- Столбцы разной ширины -->
+    <div class="section">
+        <h3>Столбцы разной ширины</h3>
+        <div class="grid-container columns-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container columns-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+        </div>
+    </div>
+
+    <!-- Единица fr -->
+    <div class="section">
+        <h3>Единица fr</h3>
+        <div class="grid-container fr-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container fr-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container fr-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+    </div>
+
+    <!-- Пиксели и fr -->
+    <div class="section">
+        <h3>Пиксели и fr</h3>
+        <div class="grid-container px-fr-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+    </div>
+
+    <!-- Дробные fr -->
+    <div class="section">
+        <h3>Дробные fr</h3>
+        <div class="grid-container fractional-fr">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+    </div>
+
+    <!-- Функция repeat -->
+    <div class="section">
+        <h3>Функция repeat</h3>
+        <div class="grid-container repeat-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container repeat-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+        </div>
+        
+        <div class="grid-container repeat-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container repeat-4">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container repeat-5">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div>
+        </div>
+    </div>
+
+    <!-- Auto-fill -->
+    <div class="section">
+        <h3>Auto-fill</h3>
+        <div class="grid-container autofill-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+        </div>
+    </div>
+
+    <!-- Auto-fit -->
+    <div class="section">
+        <h3>Auto-fit</h3>
+        <div class="grid-container autofit-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+        </div>
+        
+        <div class="grid-container autofit-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+        </div>
+    </div>
+
+    <!-- Ряды -->
+    <div class="section">
+        <h3>Ряды</h3>
+        <div class="grid-container rows-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container rows-2">
+            <div>1</div><div>2</div><div>3</div>
+        </div>
+        
+        <div class="grid-container rows-3">
+            <div>1</div><div>2</div><div>3</div>
+        </div>
+        
+        <div class="grid-container rows-4">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+    </div>
+
+    <!-- Grid-template -->
+    <div class="section">
+        <h3>Grid-template</h3>
+        <div class="grid-container template-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container template-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+    </div>
+
+    <!-- Объединение рядов -->
+    <div class="section">
+        <h3>Объединение рядов</h3>
+        <div class="grid-container row-span-1">
+            <div class="span2">1</div><div>2</div><div>3</div>
+        </div>
+        
+        <div class="grid-container row-span-2">
+            <div>1</div><div>2</div><div>3</div><div class="span3">4</div>
+        </div>
+        
+        <div class="grid-container row-span-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+    </div>
+
+    <!-- Объединение столбцов -->
+    <div class="section">
+        <h3>Объединение столбцов</h3>
+        <div class="grid-container col-span-1">
+            <div>1</div><div>2</div><div>3</div><div class="span3">4</div>
+        </div>
+        
+        <div class="grid-container col-span-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+    </div>
+
+    <!-- Комбинации объединений -->
+    <div class="section">
+        <h3>Комбинации объединений</h3>
+        <div class="grid-container complex-1">
+            <div class="full-row">1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container complex-2">
+            <div class="full-row">1</div><div class="span2">2</div><div>3</div><div>4</div><div class="full-row">5</div>
+        </div>
+        
+        <div class="grid-container complex-3">
+            <div class="full-row">1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container complex-4">
+            <div class="full-row">1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container complex-5">
+            <div class="full-row">1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+        
+        <div class="grid-container complex-6">
+            <div class="full-row">1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+    </div>
+
+    <!-- Перекрытие -->
+    <div class="section">
+        <h3>Перекрытие</h3>
+        <div class="grid-container overlap-1">
+            <div class="full-col">1</div><div class="middle">2</div><div class="left">3</div><div class="right">4</div>
+        </div>
+    </div>
+
+    <!-- Gap -->
+    <div class="section">
+        <h3>Gap</h3>
+        <div class="grid-container gap-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+        
+        <div class="grid-container gap-2">
+            <div>1</div><div>2</div><div>3</div>
+        </div>
+        
+        <div class="grid-container gap-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+        </div>
+    </div>
+
+    <!-- Практические задания 4x3 -->
+    <div class="section">
+        <h3>Практические задания 4x3</h3>
+        <div class="grid-container practice-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div>
+        </div>
+        
+        <div class="grid-container practice-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div>
+        </div>
+        
+        <div class="grid-container practice-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div>
+        </div>
+    </div>
+
+    <!-- Сложные практические задания -->
+    <div class="section">
+        <h3>Сложные практические задания</h3>
+        <div class="grid-container complex-practice-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+        
+        <div class="grid-container complex-practice-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+        
+        <div class="grid-container complex-practice-3">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div>
+        </div>
+        
+        <div class="grid-container complex-practice-4">
+            <div>1</div><div>2</div><div>3</div><div>4</div>
+        </div>
+        
+        <div class="grid-container complex-practice-5">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+        </div>
+        
+        <div class="grid-container complex-practice-6">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div>
+        </div>
+    </div>
+</body>
+</html>
