@@ -1,0 +1,256 @@
+h1 {
+	text-align: center;
+    color: red;
+}
+#xhunter {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: #7e89eb; 
+}
+
+#kg {
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 500px;
+	height: 300px;
+	color: white;
+	background-color: #4dee99; 
+    margin: 10px 0;
+}
+
+#elem {
+	border-width: 3px;    /* толщина 3px */
+	border-style: solid;  /* в виде линии */
+	border-color: red;    /* красный цвет */
+    background-color: #ffd000;
+	width: 300px;
+	height: 100px;
+    margin: 10px 0;
+}
+
+#cube {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    margin: 10px 0;
+}
+
+#glow {
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: orange;
+    margin: 10px 0;
+}
+
+#kirito {
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+    width: 300px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+#閃光 {
+    width: 300px;
+    height: 200px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px 0;
+}
+
+#ユイ {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 10px 0;
+}
+
+#桐ヶ谷直葉 {
+    width: 300px;
+    height: 200px;
+    border: 2px dotted blue;
+    margin: 10px 0;
+}
+
+#朝田詩乃 {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed green;
+    margin: 10px 0;
+}
+
+#紺野木綿季 {
+    width: 300px;
+    height: 200px;
+    border: 5px double orange;
+    margin: 10px 0;
+}
+
+#END {
+    width: 300px;
+    height: 200px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-left: 3px solid orange;
+    border-right: 3px solid green;
+    margin: 10px 0;
+}
+
+#Lucy {
+    width: 300px;
+    height: 200px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-left: 3px solid red;
+    border-right: 3px dotted green;
+    margin: 10px 0;
+}
+
+#Elsa {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+#Zeref {
+    width: 200px;
+    height: 200px;
+    background-color: #4dee99;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+#Djeraf {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+#Laksus {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 50px 70px;
+    margin: 10px 0;
+}
+
+#Airin {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px;
+    margin: 10px 0;
+}
+
+#Mavis {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+body {
+    background-image: 
+        url("C:/Users/banan/Desktop/Оформление/bg-x.png"),
+        url("C:/Users/banan/Desktop/Оформление/bg-y.png"); 
+    
+    background-repeat: 
+        repeat-x,  
+        repeat-y;  
+    
+    background-position: 
+        top left,
+        top left;  
+}
+ul {
+	list-style-type: none;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+}
+
+#elem1 {
+    width: 400px;
+    border: 1px dashed blue;
+}
+
+#elem2 {
+    margin: 50px;
+    height: 300px;
+    border: 1px solid orange;
+}
+
+#elem3 {
+    width: 400px;
+    border: 1px dashed blue;
+}
+
+#elem4 {
+    margin: 25px;
+    border: 1px dashed green;
+}
+
+#elem5 {
+    height: 200px;
+    margin: 25px;
+    border: 1px solid red;
+}
+
+#parent {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#child {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#aqw {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#qew {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#req {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#wrq {
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    height: 100px;
+    border: 1px solid green;
+}
