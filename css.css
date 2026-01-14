@@ -1,0 +1,367 @@
+#elem1 {
+    width: 400px;
+    border: 1px dashed blue;
+}
+#elem2 {
+    margin: 50px;
+    height: 300px;
+    border: 1px solid orange;
+}
+#elem1
+Specificity: (1,0,0)
+ {
+    width: 400px;
+    border: 1px dashed blue;
+}
+#elem2 {
+    margin: 25px;
+    border: 1px dashed green;
+}
+#elem3 {
+    height: 200px;
+    margin: 25px;
+    border: 1px solid red;
+}
+
+#parent {
+    width: 200px;
+    border: 1px solid red;
+}
+#child {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#parent1 {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#child1 {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#parent2 {
+    width: 200px;
+    border: 1px solid red;
+}
+#child2 {
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+#parent3 {
+    width: 200px;
+    border: 1px solid orange;
+}
+#child3 {
+    margin: 25px 50px 100px 10px;
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+#parent4 {
+    width: 200px;
+    border: 1px solid orange;
+}
+#child4 {
+    margin: 100px 50px;
+    height: 50px;
+    border: 1px dashed blue;
+}
+#parent5
+ {
+    width: 200px;
+    border: 1px solid orange;
+}
+#child5 {
+    margin: 25px 50px;
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+#parent6 {
+    width: 200px;
+    border: 1px solid orange;
+}
+#child6 {
+    margin: 100px 50px 30px;
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+#parent7 {
+    width: 400px;
+    border: 1px solid orange;
+}
+#child7 {
+    margin: 30px 100px 50px;
+    height: 50px;
+    border: 1px dashed blue;
+}
+#elem65 {
+    padding: 50px;
+    width: 200px;
+    border: 1px solid red;
+    text-align: justify;
+}
+
+#elem74 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid green;
+    text-align: justify;
+}
+#elem27 {
+    width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid red;
+    text-align: justify;
+}
+
+#elem8 {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    width: 200px;
+    border: 1px solid red;
+    text-align: justify;
+}
+#elem9 {
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 10px 20px 30px 40px;
+}
+
+#elem10 {
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 60px 30px;
+}
+#elem11 {
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 10px 20px 40px;
+}
+
+#elem12 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem13 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; /* задаем отступы */
+	border: 10px solid green;  /* задаем границу */
+	box-sizing: border-box;  /* убираем расширение */
+}
+p {
+    display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 50px; /* для вертикального выравнивания текста */
+}
+.elem {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+  .container {
+            width: 600px;
+            height: 200px;
+            border: 2px solid #333;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .block {
+            width: 80px;
+            height: 80px;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+.parent44 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center; /* центрирует строчные элементы по горизонтали */
+}
+
+.parent42 {
+    text-align: right; 
+    padding: 10px 0;
+    border: 1px solid red;
+   
+}
+
+.parent43 {
+    padding: 10px 20px 10px 0; 
+    border: 1px solid red;
+    text-align: right;
+}
+.parent12 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center; /* центрируем строчно-блочные элементы */
+}
+
+.child12 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block; /* преобразуем в строчно-блочные элементы */
+    margin: 0 5px; /* горизонтальный margin 5px */
+}
+/* Задача 1 */
+.task1 {
+    text-align: right;
+}
+
+.task1 .child {
+    display: inline-block;
+}
+
+/* Задача 2 */
+.task2 {
+    text-align: right;
+    padding-right: 20px; /* правый padding для родителя */
+}
+
+.task2 .child {
+    display: inline-block;
+}
+
+/* Задача 3 */
+.task3 {
+    text-align: right;
+}
+
+.task3 .child {
+    display: inline-block;
+    margin-right: 20px; /* правый margin для потомка */
+}
+
+/* Задача 4 */
+.task4 {
+    text-align: right;
+}
+
+.task4 .child {
+    display: inline-block;
+    width: 100px;
+}
+
+/* Задача 5 */
+.task5 {
+    text-align: right;
+}
+
+.task5 .child {
+    display: inline-block;
+    width: 100px;
+    text-align: center; /* выравнивание текста по центру ссылки */
+}
+.childq {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.childw {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.childe {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.childr {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.childt {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.parentqq {
+    display: inline-flex;
+    padding: 20px;
+    border: 1px solid red;
+}
+.childqq {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.parentww {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.childww {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+.parentee {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.childee {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
