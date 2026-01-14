@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="demo-padding clearfix">
+        <img src="image1.png" class="float-left">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+        </p>
+        <p>
+            some long text
+        </p>
+    </div>
+
+    <div class="demo-padding-inside clearfix">
+        <p>
+            <img src="image1.png" class="float-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+        </p>
+        <p>
+            some long text
+        </p>
+    </div>
+
+    <div class="demo-float-under clearfix">
+        <p>
+            <img src="image1.png" class="float-right">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+        </p>
+        <p>
+            some long text
+        </p>
+    </div>
+
+    <div class="demo-float-under clearfix">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+        </p>
+        <img src="image1.png" class="float-right">
+        <p>
+            some long text
+        </p>
+    </div>
+
+    <div class="demo-float-under clearfix">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+        </p>
+        <p>
+            some long text
+        </p>
+        <img src="image1.png" class="float-right">
+    </div>
+
+    <div class="demo-parent-effect">
+        <img src="image1.png">
+    </div>
+
+    <div class="demo-parent-effect">
+        <img src="image1.png" class="float-left">
+    </div>
+
+    <div class="demo-parent-effect">
+        <img src="image1.png" class="float-right">
+    </div>
+
+    <h3>9. Родителю задана фиксированная высота</h3>
+    <div class="demo-parent-fixed-height">
+        <img src="image1.png" class="float-right">
+    </div>
+
+    <div class="demo-text-parent">
+        text
+        <img src="image1.png" class="float-right">
+    </div>
+
+    <div class="demo-text-parent">
+        <img src="image1.png" class="float-right">
+        text
+    </div>
+
+    <div class="demo-text-parent">
+        <img src="image1.png" class="float-left">
+        text
+    </div>
+
+    <div class="demo-text-parent">
+        <img src="image1.png" class="float-left">
+        text
+    </div>
+    <div class="neighbor-div">
+        text
+    </div>
+
+    <div class="demo-text-parent">
+        <img src="image1.png" class="float-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a dapibus magna, ac interdum nisl. Suspendisse eget fringilla nibh, eu commodo arcu. Donec lacinia tempor velit sed tincidunt. Aliquam porttitor nulla purus, vel vulputate ipsum faucibus sed.
+    </div>
+    <div class="neighbor-div">
+        text
+    </div>
+
+
+    <div class="clearfix">
+        <img src="image1.png" class="float-left">
+        <img src="image2.png" class="float-right">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a dapibus magna,
+            ac interdum nisl. Suspendisse eget fringilla nibh, eu commodo arcu.
+        </p>
+        <p>
+            Donec lacinia tempor velit sed tincidunt. Aliquam porttitor nulla purus, vel vulputate ipsum
+            faucibus sed. Phasellus sodales, lorem vel cursus vehicula, ante purus lacinia dui.
+        </p>
+    </div>
+
+    
+    <div class="clear-demo-container">
+        <div class="clear-parent">
+            <img src="image1.png" class="clear-float-left">
+            text
+        </div>
+        <div class="clear-neighbor">
+            text (картинка налезает на этот блок)
+        </div>
+    </div>
+
+    <div class="clear-demo-container">
+        <div class="clear-parent">
+            <img src="image1.png" class="clear-float-left">
+            text
+        </div>
+        <div class="clear-neighbor clear-clearfix">
+            text (clear: both отменил обтекание)
+        </div>
+    </div>
+
+    <div class="clear-demo-container">
+        <div class="clear-parent">
+            <img src="image1.png" class="clear-float-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <div class="clear-neighbor clear-clearfix">
+            Второй блок с clear: both
+        </div>
+    </div>
+
+    <div class="clear-demo-container">
+        <div class="clear-parent">
+            <img src="image1.png" class="clear-float-left">
+            <img src="image2.png" style="float: right; margin: 0 0 10px 10px; width: 100px; height: 100px;">
+            Текст между двумя плавающими картинками
+        </div>
+        <div class="clear-neighbor clear-clearfix">
+            Блок с clear: both (не обтекается картинками)
+        </div>
+    </div>
+    
+    <div class="separate-parent">
+        <img src="image1.png" class="float-left">
+        text в первом блоке
+    </div>
+    <div class="separate-clearfix"></div>
+    <div class="separate-parent">
+        text во втором блоке (отдельный clearfix предотвратил налезание)
+    </div>
+
+<div class="middle-image-example clearfix">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+    Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+    fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+    sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+    ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+    ante purus lacini dui, interdum fringilla massa eros ut duir.
+    
+    <img src="image1.png" alt="">
+    
+    Nullam et ipsum ex. Donec ut iaculis massa. Duis vel ullamcor
+    per dolor. Suspendisse tristique dolor risus, nec laoreet du
+    aliquet maximus. Maceenas tempus congue arcu, si amet auctor
+    dui efficitur in. Proin ac auctor nisi. Phasellus luctus eur
+    neque sollicitudin rutrum. Curabitur ipsum justo, sodales in
+    lectus non, molestie ullamcorper elit, orciro varius natoque.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire.
+    Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+    fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+    sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+    ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+</div>
+
+<div class="two-images-example clearfix">
+    <img src="image1.png" class="float-left">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire. Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacinii dui, interdum fringilla massa eros ut duir. Nullam et ipsum ex. Donec ut iaculis massa. Duis vel ullamcor per dolor.
+    
+    <img src="image2.png" class="float-right">
+    
+    Suspendisse tristique dolor risus, nec laoreet du aliquet maximus. Maceenas tempus congue arcu, si amet auctor dui efficitur in. Proin ac auctor nisi. Phasellus luctus eur neque sollicitudin rutrum. Curabitur ipsum justo, sodales in lectus non, molestie ullamcorper elit, orciro varius natoque. Lorem ipsum dolor sit amet, consectetur adipiscing elitorire. Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacinii dui, interdum fringilla massa eros ut duir. Nullam et ipsum ex. Donec ut iaculis massa. Duis vel ullamcor per dolor. Suspendisse tristique dolor risus, nec laoreet du aliquet maximus. Maceenas tempus congue arcu, si amet auctor dui efficitur in. Proin ac auctor nisi. Phasellus luctus eur neque sollicitudin rutrum. Curabitur ipsum justo, sodales in lectus non, molestie ullamcorper elit, orciro varius natoque.
+</div>
+
+<div class="parent">
+				<div class="child">text 1</div>
+				<div class="child2">text 2</div>
+				<div class="child3">text 3</div>
+				<div class="child4">text 4</div>
+				<div class="child5">text 5</div>
+				<div class="clearfix"></div>
+			</div>
+
+<div class="squares-container">
+    <div class="square">1</div>
+    <div class="square">2</div>
+    <div class="square">3</div>
+    <div class="square">4</div>
+    <div class="square">5</div>
+</div>
+
+
+<div class="flex-row-reverse">
+    <div class="flex-child">1</div>
+    <div class="flex-child">2</div>
+    <div class="flex-child">3</div>
+    <div class="flex-child">4</div>
+    <div class="flex-child">5</div>
+</div>
+
+<div class="flex-column">
+    <div class="flex-column-child">1</div>
+    <div class="flex-column-child">2</div>
+    <div class="flex-column-child">3</div>
+    <div class="flex-column-child">4</div>
+    <div class="flex-column-child">5</div>
+</div>
+
+<div class="flex-column-reverse">
+    <div class="flex-column-reverse-child">1</div>
+    <div class="flex-column-reverse-child">2</div>
+    <div class="flex-column-reverse-child">3</div>
+    <div class="flex-column-reverse-child">4</div>
+    <div class="flex-column-reverse-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-1">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-2">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-3">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-4">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-5">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-6">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-7">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-8">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-9">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-10">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-11">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-align-demo flex-example-12">
+    <div class="flex-align-child">1</div>
+    <div class="flex-align-child">2</div>
+    <div class="flex-align-child">3</div>
+    <div class="flex-align-child">4</div>
+    <div class="flex-align-child">5</div>
+</div>
+
+<div class="flex-stretch-demo flex-example-13">
+    <div class="flex-stretch-child">1</div>
+    <div class="flex-stretch-child">2</div>
+    <div class="flex-stretch-child">3</div>
+    <div class="flex-stretch-child">4</div>
+    <div class="flex-stretch-child">5</div>
+</div>
+
+<div class="flex-stretch-demo flex-example-14">
+    <div class="flex-stretch-child">1</div>
+    <div class="flex-stretch-child">2</div>
+    <div class="flex-stretch-child">3</div>
+    <div class="flex-stretch-child">4</div>
+    <div class="flex-stretch-child">5</div>
+</div>
+
+<div class="flex-align-self-demo flex-example-15">
+    <div class="flex-align-self-child">1</div>
+    <div class="flex-align-self-child">2</div>
+    <div class="flex-align-self-child self-flex-end">3</div>
+    <div class="flex-align-self-child">4</div>
+    <div class="flex-align-self-child">5</div>
+</div>
+
+<div class="flex-align-self-demo flex-example-16">
+    <div class="flex-align-self-child">1</div>
+    <div class="flex-align-self-child">2</div>
+    <div class="flex-align-self-child no-stretch">3</div>
+    <div class="flex-align-self-child">4</div>
+    <div class="flex-align-self-child">5</div>
+</div>
+
+<div class="flex-align-self-demo flex-example-17">
+    <div class="flex-align-self-child">1</div>
+    <div class="flex-align-self-child">2</div>
+    <div class="flex-align-self-child self-center">3</div>
+    <div class="flex-align-self-child">4</div>
+    <div class="flex-align-self-child">5</div>
+</div>
+
+<div class="flex-order-demo flex-example-18">
+    <div class="flex-order-child">1</div>
+    <div class="flex-order-child">2</div>
+    <div class="flex-order-child">3</div>
+    <div class="flex-order-child">4</div>
+    <div class="flex-order-child">5</div>
+</div>
+
+<div class="flex-order-demo flex-example-18">
+    <div class="flex-order-child">1</div>
+    <div class="flex-order-child order-1">2</div>
+    <div class="flex-order-child">3</div>
+    <div class="flex-order-child">4</div>
+    <div class="flex-order-child">5</div>
+</div>
+
+<div class="flex-order-demo flex-example-18">
+    <div class="flex-order-child">1</div>
+    <div class="flex-order-child order-minus-1">2</div>
+    <div class="flex-order-child">3</div>
+    <div class="flex-order-child">4</div>
+    <div class="flex-order-child">5</div>
+</div>
+
+<div class="flex-order-demo flex-example-18">
+    <div class="flex-order-child">1</div>
+    <div class="flex-order-child order-custom-1">2</div>
+    <div class="flex-order-child order-custom-2">3</div>
+    <div class="flex-order-child">4</div>
+    <div class="flex-order-child order-custom-3">5</div>
+</div>
+
+</body>
+</html>
